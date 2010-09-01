@@ -1,0 +1,15 @@
+!!! Strict
+%html
+  %head
+    %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=UTF-8'}/
+    %title Simple Navigation Examples
+    %link{:href => '/stylesheets/navigation.css', :rel => 'stylesheet', :type => 'text/css', :media => 'screen'}
+  %body
+    
+    = partial 'structure/header'
+    
+    #main_content
+    
+      %a{:href => '/'} Back to examples
+      %div{:style => 'margin-bottom: 10px'}
+      = yield
