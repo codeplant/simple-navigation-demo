@@ -3,4 +3,4 @@ source :gemcutter
 gem 'shotgun'
 gem 'sinatra', '1.0'
 gem 'haml',              '3.0.14'
-gem 'simple-navigation', '3.0.0.beta1'
+gem 'sinatra-simple-navigation', 3.0.0.beta1

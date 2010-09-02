@@ -3,16 +3,14 @@ $: << File.join(File.dirname(__FILE__), 'lib')
 require 'bundling'
 require 'haml'
 require 'partials'
-require 'simple_navigation'
 
 # ------------------------------------------------
 # CLASSIC STYLE APP - run 'shotgun sample_app.rb'
 # ------------------------------------------------
 # require 'sinatra'
+# require 'sinatra/simple_navigation'
 # 
 # helpers Sinatra::Partials
-# 
-# SimpleNavigation.register
 # 
 # helpers do
 #   def example(options={}, &block)
@@ -35,13 +33,14 @@ require 'simple_navigation'
 
 # --------------------------------------------
 # MODULAR STYLE APP - run 'shotgun config.ru'
-#---------------------------------------------
+# ---------------------------------------------
 require 'sinatra/base'
-
+require 'sinatra/simple-navigation'
+  
 class SimpleNavigationApp < Sinatra::Base
   
   helpers Sinatra::Partials
-  register SimpleNavigation
+  register Sinatra::SimpleNavigation
 
   helpers do
     def example(options={}, &block)

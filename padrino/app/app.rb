@@ -3,7 +3,7 @@ class SimpleNavigationApp < Padrino::Application
   register Padrino::Helpers
   register SassInitializer
   
-  register SimpleNavigation
+  register Sinatra::SimpleNavigation
 
 
   ##

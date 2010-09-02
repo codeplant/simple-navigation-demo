@@ -13,4 +13,4 @@ gem 'haml'
 # Padrino
 gem 'padrino', "0.9.14"
 
-gem 'simple-navigation', '3.0.0.beta1'
+gem 'sinatra-simple-navigation', "3.0.0.beta1", :require => 'sinatra/simple-navigation'
