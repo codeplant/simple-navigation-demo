@@ -14,3 +14,4 @@ gem 'haml'
 gem 'padrino', "0.9.14"
 
 gem 'sinatra-simple-navigation', "3.2.0", :require => 'sinatra/simple-navigation'
+gem 'i18n'
