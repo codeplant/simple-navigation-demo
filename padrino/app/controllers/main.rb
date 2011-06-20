@@ -1,5 +1,9 @@
 SimpleNavigationApp.controller do
     
+  get '/' do
+    render 'index'
+  end
+    
   get '/:all' do
     render 'index'
   end
