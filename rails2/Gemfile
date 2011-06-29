@@ -2,4 +2,4 @@ source :gemcutter
 
 gem 'rails',             '2.3.11'
 gem 'haml',              '3.0.14'
-gem 'simple-navigation', '3.3.2'
+gem 'simple-navigation', '3.3.3'
