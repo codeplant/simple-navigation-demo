@@ -1,5 +1,5 @@
-!normal_link_color = #7F7669
-!active_link_color = #4C4338
+$normal_link_color: #7F7669
+$active_link_color: #4C4338
 
 #example_4.example_content
   border: 10px solid #D6D1B9
@@ -18,7 +18,7 @@
 
     a
       text-decoration: none
-      :color = !normal_link_color
+      color: $normal_link_color
       &:hover, &:active
         text-decoration: underline
 
@@ -30,7 +30,7 @@
 
 
       a.selected 
-        :color = !active_link_color
+        color: $active_link_color
         text-decoration: underline
 
       li

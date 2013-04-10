@@ -1,17 +1,36 @@
-source :rubygems
+source 'https://rubygems.org'
+
+# Distribute your app as a gem
+# gemspec
+
+# Server requirements
+# gem 'thin' # or mongrel
+# gem 'trinidad', :platform => 'jruby'
+
+# Optional JSON codec (faster performance)
+# gem 'oj'
 
 # Project requirements
 gem 'rake'
-gem 'rack-flash'
 gem 'thin' # or mongrel
 
 # Component requirements
 gem 'haml'
+gem 'sass'
 
 # Test requirements
 
-# Padrino
-gem 'padrino', '0.9.29'
+# Padrino Stable Gem
+gem 'padrino', '0.11.1'
 
-gem 'sinatra-simple-navigation', "3.3.4", :require => 'sinatra/simple-navigation'
+# Or Padrino Edge
+# gem 'padrino', :github => 'padrino/padrino-framework'
+
+# Or Individual Gems
+# %w(core gen helpers cache mailer admin).each do |g|
+#   gem 'padrino-' + g, '0.11.1'
+# end
+
+
+gem 'sinatra-simple-navigation', '3.6.0', :require => 'sinatra/simple-navigation'
 gem 'i18n'
