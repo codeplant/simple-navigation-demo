@@ -1,4 +1,4 @@
-h1. simple-navigationSample Application for Padrino
+h1. simple-navigation Sample Application for Padrino
 
 # Point your console to this directory
 # Use @bundle install@ to setup the required gems
