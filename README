@@ -1,6 +1,6 @@
-== Simple Navigation Sample Application
+== simple-navigationSample Application
 
-This is a sample application demonstrating the use of the simple-navigation gem. The demo can be accessed online on http://simple-navigation-demo.andischacke.com. This project contains the same sample application for Rails 2, Rails 3, Sinatra and Padrino frameworks.
+This is a sample application demonstrating the use of the simple-navigation gem. The demo can be accessed online on http://simple-navigation-demo.codeplant.ch. This project contains the same sample application for Rails 2, Rails 3, Rails4, Sinatra and Padrino frameworks.
 
 Please see the READMEs in the framework's folder for further instructions on how to run the application locally.
 
