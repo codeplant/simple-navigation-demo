@@ -26,8 +26,8 @@ Rails3::Application.routes.draw do
   
   root :to => 'books#index'
 
-  match 'gist' => 'gist#load', :as => :gist
-  match 'examples' => 'examples#index', :as => :examples
+  get 'gist' => 'gist#load', :as => :gist
+  get 'examples' => 'examples#index', :as => :examples
     
   
   # The priority is based upon order of creation:
