@@ -1,5 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.17'
+#gem 'rails', '3.2.21'
+gem 'rails', '4.2.0'
+
 gem 'haml'
-gem 'simple-navigation', '3.12.0'
+gem 'simple-navigation', '3.14.0'
