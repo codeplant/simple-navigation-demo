@@ -2,4 +2,4 @@ source 'http://rubygems.org'
 
 gem 'rails',             '2.3.18'
 gem 'haml'
-gem 'simple-navigation', '3.12.0'
+gem 'simple-navigation', '4.0.0'
